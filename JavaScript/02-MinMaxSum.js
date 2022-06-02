@@ -4,7 +4,6 @@
 // Then print the respective minimum and maximum values as a single line of two space-separated long integers.
 //
 
-
 function minMaxSum(arr) {
 
   // Key here is having the values sorted
@@ -17,11 +16,15 @@ function minMaxSum(arr) {
   const min = minArr.reduce((p, c) => p + c, 0)
   const max = maxArr.reduce((p, c) => p + c, 0)
 
-  console.log(`${min} ${max}`)
+  return `${min} ${max}`
 
 }
 
-let input = [3, 5, 1, 9, 7]
+module.exports = {
+  minMaxSum,
+}
 
-minMaxSum(input)
+// let input = [3, 5, 1, 9, 7]
+
+// minMaxSum(input)
 
