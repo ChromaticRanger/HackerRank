@@ -1,0 +1,27 @@
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "Some of my solutions for HackerRank problems",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChromaticRanger/HackerRank.git"
+  },
+  "author": "M D Stickley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChromaticRanger/HackerRank/issues"
+  },
+  "homepage": "https://github.com/ChromaticRanger/HackerRank#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0"
+  }
+}
